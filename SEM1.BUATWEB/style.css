@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Untuk menghilangkan Scroll Bar */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+.nav-container {
+    background: #fffffa;
+    box-shadow: 0px 3px 24px rgba(255, 0, 0, 0.1);
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li a {
+    color: black;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.nav-items li a:hover {
+    color: red;
+}
+
+/* Untuk Judul Di Home  */
+.teks-judul {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 200px;
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.teks-judul-button {
+    color: rgb(255, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.teks-judul-button:hover {
+    color: grey;
+}
+
+/* Untuk Vidio */
+
+video {
+    margin-top: 10px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+/* Membuat 2 Column */
+.column {
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  /* Membersihkan FLoats setelah columns */
+  .row:after {
+    display: table;
+    clear: both;
+  }
+
+  .column-items {
+    background-color: red;
+  }
